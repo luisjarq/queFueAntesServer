@@ -1,0 +1,30 @@
+{
+  "name": "quefueantesserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "fillP" : "node ./seeds/providers.seed.js",
+    "fillI" : "node ./seeds/ingredients.seed.js",
+    "fillF" : "node ./seeds/foods.seed.js",
+    "fillM" : "node ./seeds/menus.seed.js",
+    "fillMi" : "node ./seeds/milestones.seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
